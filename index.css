@@ -1,0 +1,243 @@
+
+
+/*
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+nav a {
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    background: red;
+    font-size: 15px;
+    border-radius: 20%;
+    margin-right: 15%;
+    
+}
+
+.intro {
+    display: inline-block;
+}
+.intro img {
+    height: 30%;
+    width: 25%;
+    margin-top: 15%;
+    margin-left: 5%;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+
+
+h1 {
+    font-size: 60px;;
+    margin-left: 50%;
+    display: inline-block;
+    margin-bottom: 
+    
+
+}
+
+h3 {
+    margin-left: 60%;
+    font-size: 30px;
+    border: 1px solid black;
+    margin-bottom: 30%;
+}
+
+.title_and_info {
+    margin-bottom: 90%;
+}
+*/
+
+/*
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  */
+
+
+@import url ('"https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    /*
+    border: 1px solid grey; */
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Roboto mono, monospace";
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 10%;
+
+}
+
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 2rem;
+}
+
+a:hover {
+    background: green;
+    border: 1px dashed blue;
+}
+
+.top_nav {
+    margin: 5% 0%;
+    padding: 10% 5%;
+    text-decoration: none;
+    width: 100%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 40px;
+    height: 20px;
+    width:100%;
+    padding: 5%;
+    color: white;
+}
+
+.plan {
+    background-color: #FF764E;
+    margin-right: 20%;
+    
+}
+
+.learn {
+    background-color: #5ED3EB;
+    margin-right: 20%;
+}
+
+.get {
+    background-color: #FFCD69;
+    
+}
+
+.yosemite_pic {
+    height: 10%;
+    display: inline-block;
+}
+
+.intro img {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.title_and_info {
+    display: inline-block;
+    height: 30%;
+    width: 45%;
+    margin-left: 23%;
+    margin-bottom: 10%;
+    padding: 5%;
+}
+
+.intro p {
+    background-color: #DDB9A3;
+    margin: 0% 5%;
+    height: 30%;
+    color: white;
+}
+
+.fire {
+    margin: 5% 0%;
+}
+
+.fire img {
+    margin: auto;
+    height: 30%;
+    width: 30%;
+    display: block;
+    padding-bottom: 4%;
+}
+
+.fire p {
+    display: block;
+    margin: 0% 34%;
+}
+
+.camping {
+    margin: 5% 0%;
+}
+
+.camping img {
+    margin: auto;
+    height: 30%;
+    width: 30%;
+    display: block;
+    padding-bottom: 4%;
+}
+
+.camping p {
+    display: block;
+    margin: 0% 34%;
+}
+
+footer img {
+    height: 350px;
+    width: 100%
+}
+
+.bottom_nav {
+    background-color: #DDB9A3;
+    margin: 5% 0%;
+    padding: 10% 5%;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.plan2 {
+    background-color: #FF764E;
+    margin-right: 20%;
+}
+
+.learn2 {
+        background-color: #5ED3EB;
+        margin-right: 20%;
+}
+
+.get2 {
+    background-color: #FFCD69;
+}
